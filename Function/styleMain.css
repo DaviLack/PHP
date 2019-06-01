@@ -1,0 +1,21 @@
+.input{
+	height: 175px;
+	width: 220px;
+	background-color: #ACFA58;
+	padding-top: 75px;
+	padding-left: 30px;
+}
+input[type="text"]{
+	margin-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	color: 000;
+	font-size: 15px;
+}
+
+input[type="submit"]{
+	background: #58FAF4;
+	outline: none;
+}

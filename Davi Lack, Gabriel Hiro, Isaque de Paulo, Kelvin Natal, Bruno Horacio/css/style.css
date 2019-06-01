@@ -1,0 +1,360 @@
+*{
+	margin:0 auto;
+	font-family: sans-serif;
+}
+body{
+	background: url(plano.jpg);
+	background-size: cover;
+}
+
+#wrapper{
+
+	width:1100px;
+	height:1300px;
+	border:1xp solid #000;
+}
+
+header,footer{
+	width:1058px;
+	height:200px;
+	border:1px solid #000;
+	background: #151515;
+	margin:20px;
+}
+header a[href="login.php"], a[href="logout.php"]{
+	margin-top: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 80px;
+     background: #fb2525;
+     color: #fff;
+     font-size: 18px;
+     border-radius: 15px;
+	border: none;
+	outline: none;
+	float: right;
+
+}
+#kart_login{
+	float:right;
+	width:200px;
+}
+#kart{
+	float:left;
+	margin-top:13px;
+}
+#kart img{
+	width:30px;
+	float:left;
+}
+#kart #valor{
+	border-radius:50%;
+	color:#FFD700;
+	width:20px;
+	line-height:20px;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	margin-top:1px;
+	margin-left:1px;
+	float:left;
+}
+
+header a[href="cad_depto.php"], a[href="cad_produto.php"]{
+	margin-top: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 220px;
+     background: #fb2525;
+     color: #fff;
+     font-size: 18px;
+     border-radius: 15px;
+	border: none;
+	outline: none;
+	float: right;
+}
+
+header a[href="login.php"]:hover, a[href="cad_depto.php"]:hover, a[href="cad_produto.php"]:hover{
+	background:#fff;
+	color: #000;
+	font-weight:bold;
+}
+
+header img{
+	margin-right: 100px;
+	width: 100px;
+	height: 100px;
+	margin: 15px 0 0 15px;
+}
+
+footer{
+	clear: both;
+	background-image: url("footer.jpg");
+	background-size: contain;
+}
+
+nav{
+	width:200px;
+	height:249px;
+	border:1px #solid #000;
+	background:#f00;
+	margin: 0 20px 20px 20px;
+	float:left;
+}
+
+#slider{
+	width:836px;
+	height:249px;
+	border:1px #solid #000;
+	background-image: url("slider.jpg");
+	background-size: cover;
+	float:left;
+	margin-bottom:20px;
+}
+
+
+#login{
+	float:left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	height: 500px;
+	width: 1056px;
+}
+
+.loginbox{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 40px;
+	height: 420px;
+	width: 320px;
+	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+#cad_depto{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 40px;
+	height: 500px;
+	width: 320px;
+	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	box-sizing: border-box;
+	padding: 250px 30px;
+}
+
+#cad_depto input[type="text"]{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 15px;
+}
+
+#cad_depto input[type="submit"]{
+	margin-top: 40px;
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 70px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 15px;
+}
+
+#cad_produto{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 40px;
+	height: 650px;
+	width: 320px;
+	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+#cad_produto input[type="text"]{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 15px;
+}
+
+#cad_produto input[type="submit"]{
+	margin-top: 40px;
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 70px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 15px;
+}
+
+
+.loginbox input{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 15px;
+}
+
+.loginbox input[type="submit"]{
+	margin-top: 40px;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 15px;
+}
+
+.loginbox input[type="submit"]:hover{
+      cursor: pointer;
+	 font-height: bold;
+      background: #fff;
+      color: #000;
+}
+
+.depto ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.depto ul li{
+	height:30px;
+	border-bottom:1px solid #000;
+	line-height:30px;
+	background:#fb2525;
+}
+
+.depto ul li a{
+	border-left:10px solid #444;
+	padding-left:10px;
+	display:block;
+	text-decoration:none;
+	color: #fff;
+}
+.depto ul li a:hover{
+	background:#fff;
+	color: #000;
+	font-weight:bold;
+}
+
+.item{
+	width:240px;
+	height:248px;
+	border:1px solid #000;
+	background:rgba(0, 0, 0, 0.75);
+	float:left;
+	margin: 0px 10px 20px 20px;
+	color: #fff;
+
+}
+
+.item {
+	text-align: center;
+}
+
+.item img{
+     max-width:100px;
+     max-height:100px;
+     width: auto;
+     height: auto;
+	margin-right: 20px;
+	text-align: center;
+
+}
+
+.item p[class = "preco"]{
+	color: #00cc00;
+	text-align: center;
+
+
+}
+.comprar{
+	width:215px !important;
+	height:60px;
+	line-height:60px;
+	margin-top:20px;
+	background:#A52A2A;
+	border:1px solid #A52A2A;
+}
+.btn{
+	width:100px;
+	height:35px;
+	line-height:40px;
+	border-radius:5px;
+	display:block;
+	float:left;
+	margin-top:20px;
+	margin-right:15px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	text-align:center;
+	font-size:15px;
+	text-decoration:none;
+	font-weight:bold;
+	color: #fff;
+}
+
+#notify {
+  position: relative;
+  right: -10px;
+  top: 0px;
+}
+
+#notify .heartbit {
+    animation: 1s ease-out 0s normal none infinite running heartbit;
+    border: 3px solid #f00;
+    border-radius: 70px;
+    height: 35px;
+    position: absolute;
+    right: -10px;
+    top: -17px;
+    width: 35px;
+    z-index: 10;
+}
+
+#notify .point {
+	background-color: #f00;
+	border-radius: 30px;
+	height: 22px;
+	position: absolute;
+	right: 0px;
+	top: -8px;
+	width: 22px;
+}
+#notify .point .value{
+	font-size:11px;
+	font-weight:bold;
+	margin-top:-12px;
+	margin-left:5px;
+	float:left;
+}
